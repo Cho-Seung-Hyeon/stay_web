@@ -1,38 +1,100 @@
-.App {
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+header .inner {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgba(0, 0, 0, 0.178);
+	padding: 20px 200px;
+
+}
+
+header .inner h2 a {
+	font: bold 25px "arial";
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+.search-bar {
+	display: flex;
+	background-color: rgba(167, 29, 29, 0);
+}
+
+.search-bar .where {
+	width: 120px;
+	background-color: rgb(255, 255, 255);
+	height: 45px;
+	border-radius: 30px 0 0 30px;
+	border: none;
+	font-weight: 1000;
+	box-shadow:  1px 3px  5px 1px grey;
+}
+
+.search-bar .when {
+	width: 120px;
+	background-color: rgb(255, 255, 255);
+	height: 45px;
+	border: none;
+	font-weight: 1000;
+	box-shadow:  1px 3px  5px 1px grey;
+}
+.search-bar .guest {
+	width: 120px;
+	background-color: rgb(255, 255, 255);
+	height: 45px;
+	border-radius: 0 30px 30px 0;
+	border: none;
+	font-weight: 1000;
+	box-shadow:  1px 3px  5px 1px grey;
+}
+
+.user_icon {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: none;
+	box-shadow:  1px 3px  5px 1px grey;
+}
+
+.sidemenu {
+	width: 150px;
+	margin-top: 0px;
+	margin-right: 150px;
+	float: right;
+  background-color: #e49b9b00;
   text-align: center;
+	
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login {
+	width: 150px;
+	border-radius: 30px 30px 0 0;
+	border-style: none;
+	padding: 5px;
+	box-shadow:  3px 3px  10px 1px grey;
+	
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.signup {
+	width: 150px;
+	border-style: none;
+	padding: 5px;
+	box-shadow:  3px 3px  10px 1px grey;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.host {
+	width: 150px;
+	border-style: none;
+	padding: 5px;
+	box-shadow:  3px 3px  10px 1px grey;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.help {
+	width: 150px;
+	padding: 7px;
+	border-radius: 0 0 30px 30px;
+	border-style: none;
+	box-shadow:  3px 3px  10px 1px grey;
 }
